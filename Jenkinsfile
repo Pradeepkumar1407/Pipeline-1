@@ -12,17 +12,17 @@ stage('types of testing'){
                 echo 'testing application'
             }
         }
-stage('code quality '){
+stage('code quality'){
             steps {
                 echo ' code quality checking'
             }
         }
-stage('Automation' ){
+stage('Automation'){
             steps {
                 echo ' Automation Testing apllication'
             }
         }
-stage(')Reports' ){
+stage('Reports'){
             steps {
                 echo 'Reports of  builded apllication'
             }
@@ -35,11 +35,6 @@ stage('Deploy') {
 stage('Profile') {
             steps {
                 echo 'This apllication was built by XYZ company'
-            }
-        }
-stage('build') {
-            steps {
-                echo 'building apllication'
             }
         }
     }
