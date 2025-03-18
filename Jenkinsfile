@@ -34,10 +34,10 @@ stage('Deploy') {
         }
 stage('Profile') {
             steps {
-                echo 'This apllication' was built by XYZ company'
+                echo 'This apllication was built by XYZ company'
             }
         }
-stage('build) {
+stage('build') {
             steps {
                 echo 'building apllication'
             }
