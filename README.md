@@ -1,1 +1,1 @@
-Poll SCM has been triggered
+Webhook has been triggered
